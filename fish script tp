@@ -1,0 +1,104 @@
+--Бибилеотека
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+--Создание окна
+local Window = OrionLib:MakeWindow({Name = "Fish by ServerMortis", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+--Создание таба
+
+local Tab = Window:MakeTab({
+	Name = "Teleport",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--Создание секции
+local Section = Tab:AddSection({
+	Name = "Teleport"
+})
+
+--Создаёт кнопку
+Tab:AddButton({
+	Name = "Tp in Moosewood",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(379.581879, 134.500519, 246.483841, -0.307897866, 1.7061843e-09, 0.951419413, -2.98399017e-09, 1, -2.75898149e-09, -0.951419413, -3.68851061e-09, -0.307897866)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Mushgrove Swamp",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2663.58813, 130.781631, -717.858704, 0.840970933, 3.15014361e-08, 0.541080296, 6.64345512e-09, 1, -6.85450772e-08, -0.541080296, 6.12390565e-08, 0.840970933)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Snowcap Island",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2616.67163, 135.283859, 2384.75342, 0.451012045, -7.43543964e-08, 0.892517865, -6.77576928e-09, 1, 8.67325554e-08, -0.892517865, -4.51649207e-08, 0.451012045)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Terrapin Island",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-193.602829, 135.166672, 1953.06873, -0.0911259726, -1.14778018e-08, 0.995839357, 7.97098636e-08, 1, 1.88197422e-08, -0.995839357, 8.10931837e-08, -0.0911259726)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Forsaken Shores",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2504.68774, 133.141937, 1524.43994, 0.950986147, 7.84480747e-08, -0.309233487, -4.92077525e-08, 1, 1.023569e-07, 0.309233487, -8.21233073e-08, 0.950986147)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Roslit bay",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1448.16858, 133.236954, 722.47522, -0.56300807, 2.20730332e-08, -0.826451421, 2.05634763e-08, 1, 1.26996333e-08, 0.826451421, -9.84471793e-09, -0.56300807)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Sunstone Island",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-909.946106, 137.343292, -1127.32117, -0.469894409, 1.47242565e-08, 0.882722616, -2.54891557e-08, 1, -3.02489909e-08, -0.882722616, -3.67136863e-08, -0.469894409)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Statue Of Sovereignty",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(49.9562569, 131.448715, -1011.11542, -0.476920694, -7.09754318e-08, -0.878946304, 2.20279777e-08, 1, -9.27030825e-08, 0.878946304, -6.3573431e-08, -0.476920694)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Vertigo",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-106.814529, -731.74939, 1207.18542, -0.941500127, 4.66627306e-08, 0.337012649, 1.38715119e-08, 1, -9.97075347e-08, -0.337012649, -8.919978e-08, -0.941500127)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in The Depths",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(902.565796, -732.758179, 1333.30896, 0.0566830486, 6.33907149e-08, -0.998392224, -4.15166639e-08, 1, 6.11357152e-08, 0.998392224, 3.79845559e-08, 0.0566830486)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Ancient Isle",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6064.56006, 200.770996, 377.734009, 0.948204815, -1.59104852e-09, 0.317659646, -2.34108644e-08, 1, 7.48894067e-08, -0.317659646, -7.84471865e-08, 0.948204815)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tp in Desolate deep",
+	Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1646.23877, -213.679443, -2860.00879, -0.553775489, -4.1773994e-08, 0.832666039, -4.29614886e-08, 1, 2.1596863e-08, -0.832666039, -2.38127598e-08, -0.553775489)
+  	end    
+})
+
+--Завершает скрипт
+OrionLib:Init()
